@@ -50,5 +50,6 @@ class Song
     song = self.new
     song.artist_name = song_file[0]
     song.name = song_file[1].delete(".mp3")
+    song
   end
 end
