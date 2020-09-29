@@ -57,4 +57,8 @@ class Song
     song = self.new_from_filename(file)
     self.all << song
   end
+  
+  def self.destroy_all
+    self.all.
+  end
 end
