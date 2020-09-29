@@ -52,4 +52,9 @@ class Song
     song.name = song_file[1].delete_suffix(".mp3")
     song
   end
+  
+  def self.create_from_filename(file)
+    song = self.create_from_filename(file)
+    self.all << song
+  end
 end
